@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" media="screen and (max-width:994px)" href="mobile.css">
+  <title>Github Finder</title>
+</head>
+
+<body id="body">
+  <nav id="nav-bar">
+    <h1><i class="fab fa-github "></i> GitHub Finder</h1>
+  </nav>
+  <!-- Seach box -->
+  <div class="search-box">
+    <h1>Search GitHub Users</h1>
+    <p>Enter a username to fetch a user Profile and repos</p>
+    <label>
+      <input type="text" id="search-user" placeholder=" ">
+      <p>Github Username</p>
+    </label>
+  </div>
+  <div id="profile"></div>
+  <br>
+  <footer>GitHub Finder &copy;</footer>
+  <br>
+
+  <script src="github.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

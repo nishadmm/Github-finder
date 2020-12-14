@@ -1,0 +1,45 @@
+.badge {
+  font-size: 0.6rem;
+  padding: 8px;
+}
+
+@media(max-width:888px) {
+
+  .search-box, #repos {
+    width: 95%;
+  }
+
+  .profile {
+    width: 95%;
+    grid-template-columns: none;
+  }
+
+  .profile #profile-img {
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 300px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .badge {
+    font-size: 0.7rem;
+    padding: 8px 10px;
+  }
+
+  ul {
+    transform: translateY(20px);
+  }
+
+  .repo {
+    flex-direction: column;
+  }
+
+  .repo-badges {
+    width: 100%;
+    margin: 1rem;
+  }
+}
